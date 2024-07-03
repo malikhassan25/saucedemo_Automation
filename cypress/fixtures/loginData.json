@@ -1,38 +1,56 @@
 {
-    "UserValid": [
+    "standardUser": [
       {
-        "user_firstname": "User",
-        "user_lastname": "Tester"
+        "user_Email": "standard_user",
+        "user_Password": "secret_sauce"
       }
     ],
-    "InvalidEmail": [
+    "nonlogIn": [
       {
-        "user_firstname": "User",
-        "user_lastname": "Tester"
+        "user_Email": "locked_out_user",
+        "user_Password": "secret_sauce"
       }
     ],
-    "PasswordMismatch": [
+    "problemUser": [
       {
-        "user_firstname": "User",
-        "user_lastname": "Tester"
+        "user_Email": "problem_user",
+        "user_Password": "secret_sauce"
       }
     ],
-    "EmailAlreadyExisting": [
+    "performanceGlitchUser": [
       {
-        "user_firstname": "User",
-        "user_lastname": "Tester"
+        "user_Email": "performance_glitch_user",
+        "user_Password": "secret_sauce"
       }
     ],
-    "InvalidPhone": [
+    "invalidUser": [
       {
-        "user_firstname": "User",
-        "user_lastname": "Tester"
+        "user_Email": "invalid_user",
+        "user_Password": "secret_sauce"
       }
     ],
-    "InValIncompleteFormSubmissionidData": [
+      "invalidPassword": [
       {
-        "user_firstname": "User",
-        "user_lastname": "Tester"
+        "user_Email": "standard_user",
+        "user_Password": "invalid_password"
+      }
+    ],
+    "emptyUser": [
+      {
+        "user_Email": "",
+        "user_Password": "secret_sauce"
+      }
+    ],
+    "emptyPassword": [
+      {
+        "user_Email": "standard_user",
+        "user_Password": ""
+      }
+    ],
+    "userData.emptyEmailemptyPassword": [
+      {
+        "user_Email": "",
+        "user_Password": ""
       }
     ]
   }

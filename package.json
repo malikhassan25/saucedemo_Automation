@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+
+    "cy:run": "npx cypress run --e2e --browser chrome --headed --spec 'cypress\\e2e\\labPorduct.cy.js','cypress\\e2e\\labPorduct.cy.js',",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

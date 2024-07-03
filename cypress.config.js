@@ -17,6 +17,7 @@ module.exports = defineConfig({
       require('cypress-mochawesome-reporter/plugin')(on);
     },
 
-    baseUrl: 'https://www.saucedemo.com'
+    baseUrl: 'https://www.saucedemo.com',
+    defaultCommandTimeout : 6000
   },
 });
