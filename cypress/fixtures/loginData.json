@@ -1,0 +1,38 @@
+{
+    "UserValid": [
+      {
+        "user_firstname": "User",
+        "user_lastname": "Tester"
+      }
+    ],
+    "InvalidEmail": [
+      {
+        "user_firstname": "User",
+        "user_lastname": "Tester"
+      }
+    ],
+    "PasswordMismatch": [
+      {
+        "user_firstname": "User",
+        "user_lastname": "Tester"
+      }
+    ],
+    "EmailAlreadyExisting": [
+      {
+        "user_firstname": "User",
+        "user_lastname": "Tester"
+      }
+    ],
+    "InvalidPhone": [
+      {
+        "user_firstname": "User",
+        "user_lastname": "Tester"
+      }
+    ],
+    "InValIncompleteFormSubmissionidData": [
+      {
+        "user_firstname": "User",
+        "user_lastname": "Tester"
+      }
+    ]
+  }
